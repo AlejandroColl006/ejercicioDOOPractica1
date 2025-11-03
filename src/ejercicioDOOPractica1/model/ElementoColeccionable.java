@@ -9,7 +9,9 @@ public class ElementoColeccionable {
     protected int rareza;
     double precio;
 
-    public ElementoColeccionable (String pais, String autoridadGobernante, int annus, String unidadMonetaria, double valor, int rareza, double precio) {
+    public ElementoColeccionable (String pais, String autoridadGobernante, int annus,
+                                  String unidadMonetaria, double valor, int rareza,
+                                  double precio) {
         this.pais = pais;
         this.autoridadGobernante = autoridadGobernante;
         this.annus = annus;
