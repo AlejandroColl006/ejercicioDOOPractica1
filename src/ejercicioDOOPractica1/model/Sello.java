@@ -28,4 +28,15 @@ public class Sello extends ElementoColeccionable{
     public EstadoConservacionSello getEstadoConservacionSello() {
         return estadoConservacionSello;
     }
+
+    @Override
+    public String toString() {
+        return "Sello{" +
+                "pais='" + getPais() + '\'' +
+                ", annus=" + getAnnus() +
+                ", altura=" + altura +
+                ", anchura=" + anchura +
+                ", imagen='" + imagen + '\'' +
+                '}';
+    }
 }
