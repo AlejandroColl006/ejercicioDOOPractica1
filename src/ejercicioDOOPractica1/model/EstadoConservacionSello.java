@@ -5,4 +5,6 @@ public enum EstadoConservacionSello {
     NSG,
     NF,
     N,
+    ;
+    public static final EstadoConservacionSello BUENO = null;
 }

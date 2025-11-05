@@ -7,5 +7,6 @@ public enum EstadoConservacionMoneda {
     VF,
     XF,
     AU,
-    UNC
+    UNC;
+    public static final EstadoConservacionMoneda BUENA = null;
 }
